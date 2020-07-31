@@ -1,0 +1,23 @@
+.container #green::before {
+  background-color: rgb(0, 26, 1);
+}
+
+.container #green:before {
+  clip-path: circle(50px at 70% 40%);
+}
+
+.container #green:hover:before {
+  clip-path: circle(500px at 50% -30%);
+}
+
+.container #green:hover .item-img {
+  top: 25%;
+  transform: translateX(5%) rotate(45deg) scale(0.5);
+}
+
+.container #green .item-img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
